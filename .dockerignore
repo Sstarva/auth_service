@@ -1,0 +1,30 @@
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+
+# Python байткод и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Секреты и локальные конфиги
+.env
+*.env.local
+
+# Git
+.git/
+.gitignore
+
+# Тесты и покрытие
+tests/
+htmlcov/
+.coverage
+
+# IDE
+.idea/
+.vscode/
+*.swp
